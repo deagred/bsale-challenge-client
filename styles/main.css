@@ -1,0 +1,141 @@
+button {
+  background-color: inherit;
+  border: none;
+  transition: 150ms;
+  font-weight: 400;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid slategrey;
+  border-radius: 2px;
+  max-width: max-content;
+  text-align: right;
+  padding: 4px 8px;
+}
+
+input:focus {
+  outline:none;
+}
+
+#bsale-filterOptions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 8px;
+}
+
+.wide-container{
+  max-width: 1234px;
+  margin:  0 auto;
+}
+
+.bsale-navbar{
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, auto);
+  height: 56px;
+  gap:  8px;
+  border-bottom: 1px solid grey;
+}
+
+.bsale-navbar_title {
+  font-size: 24px;
+  border-right: 0.5px solid slategrey;
+  padding: 0 16px;
+}
+
+.bsale-navbar_entry {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  justify-self: center;
+  align-items: center;
+}
+
+.bsale-shop_body {
+  background-color: whitesmoke;
+  display: grid;
+  padding: 8px 32px;
+}
+
+.bsale-card_container {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  gap: 24px;
+  margin:  0 auto;
+}
+
+.item-thumbnail {
+  max-width: 200px;
+  min-height: 200px;
+  object-fit: fill;
+  background-color: white;
+}
+
+.item-card {
+  display: grid;
+  grid-template-rows: repeat(2, max-content);
+  border-radius: 2px;
+  gap: 8px;
+  border: 1px solid slategrey;
+  border-bottom: 1px solid slategrey;
+  z-index: 999;
+  overflow: hidden;
+}
+
+.item-info {
+  display: grid;
+  position: relative;
+  grid-template-rows: repeat(3, auto);
+  gap: 8px;
+  padding: 0 8px;
+}
+
+.item-price_container {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(2, max-content);
+}
+
+.item-sale-data {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+}
+
+.item-discount_tag {
+  position: absolute;
+  background-color: greenyellow;
+  border-top-left-radius: 2px;
+  padding:  2px 4px;
+}
+
+.item-price {
+  color: grey;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
+.item-title {
+  height: 48px;
+}
+
+.hoverButton {
+  background-color: whitesmoke;
+  border-radius: 2px;
+  padding: 2px 4px;
+  border: 0.5px solid grey;
+}
+
+.hoverButton:hover {
+  background-color: slategrey;
+  border: 0.5px solid grey;
+  color: #fff;
+}

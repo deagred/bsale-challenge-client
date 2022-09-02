@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test</title>
+  <link rel="stylesheet" type="text/css" href="styles/global.css">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+
+<body>
+  <nav class='bsale-navbar'>
+    <div class='bsale-navbar_entry'>
+      <span class='bsale-navbar_title'>Bsale Test</span>
+      <span class='bsale-navbar_sub'>Tienda</span>
+    </div>
+    <div class='bsale-navbar_entry'>
+      <button id='bsale-cartButton'>Carrito</button>
+    </div>
+  </nav>
+
+  <section class='bsale-shop_body'>
+    <div id='bsale-filterOptions'>
+      <div id='categories'>
+        <label for='categories'>Categoria:</label>
+        <select name='categories' id='bsale-categoryDropdown'>
+          <!-- dynamically loaded content -->
+        </select>
+        <button id="bsale-resetBtn" class='hoverButton'>Reiniciar</button>
+      </div>
+      <input id='bsale-searchBar' placeholder="...buscar" />
+    </div>
+    <div id='bsale-itemContainer' class='bsale-card_container'>
+      <!-- dynamically loaded content -->
+    </div>
+  </section>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
